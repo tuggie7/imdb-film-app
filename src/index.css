@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+ html, body :root{
+    @apply container mx-auto m-0 p-0 box-border text-sm font-semibold bg-slate-900 text-slate-200 overflow-x-hidden
+  }
+}
